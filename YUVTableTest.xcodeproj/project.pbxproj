@@ -15,6 +15,7 @@
 		D1287F931D77EFF2005A95AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1287F911D77EFF2005A95AB /* LaunchScreen.storyboard */; };
 		D1287F9E1D77EFF3005A95AB /* YUVTableTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1287F9D1D77EFF3005A95AB /* YUVTableTestTests.swift */; };
 		D1287FA91D77EFF3005A95AB /* YUVTableTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1287FA81D77EFF3005A95AB /* YUVTableTestUITests.swift */; };
+		D8D84846E794580F20A91E2E /* Pods_YUVTableTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C4EBF7789649936970F4E8 /* Pods_YUVTableTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DE6B114D40796F33FFB0BD0 /* Pods-YUVTableTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUVTableTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-YUVTableTest/Pods-YUVTableTest.release.xcconfig"; sourceTree = "<group>"; };
 		D1287F821D77EFF2005A95AB /* YUVTableTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUVTableTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1287F851D77EFF2005A95AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1287F871D77EFF2005A95AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		D1287FA41D77EFF3005A95AB /* YUVTableTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUVTableTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1287FA81D77EFF3005A95AB /* YUVTableTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YUVTableTestUITests.swift; sourceTree = "<group>"; };
 		D1287FAA1D77EFF3005A95AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C4EBF7789649936970F4E8 /* Pods_YUVTableTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUVTableTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F788784A4E86A953876A6B8E /* Pods-YUVTableTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUVTableTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YUVTableTest/Pods-YUVTableTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D84846E794580F20A91E2E /* Pods_YUVTableTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AFBF4C3F4CB9270BD406B96B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2C4EBF7789649936970F4E8 /* Pods_YUVTableTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1287F791D77EFF2005A95AB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,8 @@
 				D1287F9C1D77EFF3005A95AB /* YUVTableTestTests */,
 				D1287FA71D77EFF3005A95AB /* YUVTableTestUITests */,
 				D1287F831D77EFF2005A95AB /* Products */,
+				EFEE35803C9DECB544747D38 /* Pods */,
+				AFBF4C3F4CB9270BD406B96B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +143,15 @@
 			path = YUVTableTestUITests;
 			sourceTree = "<group>";
 		};
+		EFEE35803C9DECB544747D38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F788784A4E86A953876A6B8E /* Pods-YUVTableTest.debug.xcconfig */,
+				4DE6B114D40796F33FFB0BD0 /* Pods-YUVTableTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1287FAD1D77EFF3005A95AB /* Build configuration list for PBXNativeTarget "YUVTableTest" */;
 			buildPhases = (
+				2EF8D3B3F4389D0C097E3A33 /* [CP] Check Pods Manifest.lock */,
 				D1287F7E1D77EFF2005A95AB /* Sources */,
 				D1287F7F1D77EFF2005A95AB /* Frameworks */,
 				D1287F801D77EFF2005A95AB /* Resources */,
+				89C2A95E02C310EA844AFC35 /* [CP] Embed Pods Frameworks */,
+				23A0B823F58BDF3A8FFF4B3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23A0B823F58BDF3A8FFF4B3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YUVTableTest/Pods-YUVTableTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EF8D3B3F4389D0C097E3A33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89C2A95E02C310EA844AFC35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YUVTableTest/Pods-YUVTableTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1287F7E1D77EFF2005A95AB /* Sources */ = {
@@ -403,6 +478,7 @@
 		};
 		D1287FAE1D77EFF3005A95AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F788784A4E86A953876A6B8E /* Pods-YUVTableTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YUVTableTest/Info.plist;
@@ -414,6 +490,7 @@
 		};
 		D1287FAF1D77EFF3005A95AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE6B114D40796F33FFB0BD0 /* Pods-YUVTableTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YUVTableTest/Info.plist;
@@ -488,6 +565,7 @@
 				D1287FAF1D77EFF3005A95AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1287FB01D77EFF3005A95AB /* Build configuration list for PBXNativeTarget "YUVTableTestTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +574,7 @@
 				D1287FB21D77EFF3005A95AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1287FB31D77EFF3005A95AB /* Build configuration list for PBXNativeTarget "YUVTableTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +583,7 @@
 				D1287FB51D77EFF3005A95AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

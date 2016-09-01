@@ -1,0 +1,12 @@
+PODS:
+  - YUTableView-Swift (1.0.3)
+
+DEPENDENCIES:
+  - YUTableView-Swift
+
+SPEC CHECKSUMS:
+  YUTableView-Swift: 0f96d15a0738afaca03b4ffe00e7687ad117a4e8
+
+PODFILE CHECKSUM: f8f831e3c9334bac365ba092d5bc634aa47f5d00
+
+COCOAPODS: 1.0.1
